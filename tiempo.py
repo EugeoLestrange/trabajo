@@ -7,8 +7,8 @@ def horas_a_segundos(horas):
 if __name__ == "__main__":
     segundos = 678
     horas = segundos_a_horas(segundos)
-    print(f"{celsius} grados celsius equivalen a {fahrenheit} grados, tontin")
+    print(f"{segundos} segundos equivalen a {horas} horas, tontin")
 
-    fahrenheit = 50
-    celsius = fahrenheit_a_celsius(fahrenheit)
-    print(f"{fahrenheit} grados celsius equivalen a {celsius} grados, tontin")
+    horas = 50
+    segundos = horas_a_segundos(horas)
+    print(f"{horas} horas equivalen a {segundos} segundos, tontin")

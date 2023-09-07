@@ -7,8 +7,8 @@ def toneladas_a_gramos(toneladas):
 if __name__ == "__main__":
     gramos = 1000
     toneladas = gramos_a_toneladas(gramos)
-    print(f"{gramos} de pan equivalen a {toneladas} de pan, tontin")
+    print(f"{gramos} gramos de pan equivalen a {toneladas} toneladas de pan, tontin")
 
     toneladas = 4
     gramos = toneladas_a_gramos(toneladas)
-    print(f"{toneladas} de pan equivalen a {gramos} de pan, tontin")
+    print(f"{toneladas} toneladas de pan equivalen a {gramos} gramos de pan, tontin")
